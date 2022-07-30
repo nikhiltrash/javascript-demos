@@ -1,0 +1,25 @@
+{
+  "name": "nikhiltrash",
+  "version": "1.0.0",
+  "description": "- 👋 Hi, I’m @nikhiltrash - 👀 I’m interested in ... - 🌱 I’m currently learning ... - 💞️ I’m looking to collaborate on ... - 📫 How to reach me ...",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nikhiltrash/nikhiltrash.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nikhiltrash/nikhiltrash/issues"
+  },
+  "homepage": "https://github.com/nikhiltrash/nikhiltrash#readme",
+  "dependencies": {
+    "node-fetch": "^3.2.9",
+    "rxjs": "^7.5.6"
+  },
+  "type": "module"
+}
