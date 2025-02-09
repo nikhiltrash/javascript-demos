@@ -74,7 +74,7 @@ const observable = new Observable((subscriber) => {
     return value.reduce((sum, user) => sum + user.age, 0);
   }),
   map((value) => {
-    console.log("4) Data from 3nd Operator", value);
+    console.log("4) Data from 3rd Operator", value);
     if (value < 90) throw new Error("Average age is too less");
     else return value;
   }),
