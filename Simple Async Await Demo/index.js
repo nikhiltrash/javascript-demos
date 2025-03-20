@@ -16,6 +16,5 @@ async function getData() {
   console.log("Data Received");
   console.log(receivedData);
 }
-// `1234567890~!@#$%^&*()`
 getData();
 console.log("End");
