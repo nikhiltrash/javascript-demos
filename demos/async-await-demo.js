@@ -5,7 +5,6 @@ let url = "https://jsonplaceholder.typicode.com/users";
 async function postData() {
   console.log("Fetch");
   const response = await fetch(url);
-  console.log("Await");
   const data = await response.json();
   console.log("Response Received");
   return data;
