@@ -1,39 +1,3 @@
-//
-// const arr = [10, 20, 30, 40, 50, 60];
-// arr.forEach(function cb(x) {
-//   console.log(x);
-// });
-//
-
-//
-// const res = fetch('https://jsonplaceholder.typicode.com/users/1').then(r =>
-//   r.json()
-// );
-// function successCB(value) {
-//   console.log('value', value);
-// }
-// function errorCB(err) {
-//   console.log('err', err);
-// }
-// res.then(successCB, errorCB);
-//
-// function next(data) {
-//   console.log(data);
-// }
-// function error(err) {
-//   console.log('error', err);
-// }
-// function complete() {
-//   console.log('done');
-// }
-// function getData(nextCB, errorCB, completeCB) {
-//   // fetch(url).then(nextCB,errorCB)
-//   [10, 20, 30].forEach(nextCB);
-// }
-// getData(next, error, complete);
-//
-
-//
 function map(transformFn) {
   const inputObservable = this;
   const outputObservable = createObservable(function subscribe(outputObserver) {
