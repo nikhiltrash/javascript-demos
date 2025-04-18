@@ -1,6 +1,5 @@
 import { Observable } from "rxjs";
 import { map } from "rxjs/operators";
-// on develop
 const users = {
   data: [
     {
